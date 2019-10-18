@@ -217,7 +217,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x916
+.text           0x00000000      0x8fe
  *(.vectors)
  .vectors       0x00000000       0x1e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
                 0x00000000                __vector_default
@@ -279,52 +279,49 @@ END GROUP
                 0x00000186        0x6 decoder.o
  .progmem.data._ZZ11processDatavE3__c
                 0x0000018c        0xb decoder.o
- .progmem.data._ZZ4mainE3__c_6
-                0x00000197        0xf main.o
  .progmem.data._ZZ4mainE3__c_5
-                0x000001a6       0x1c main.o
+                0x00000197       0x1c main.o
  .progmem.data._ZZ4mainE3__c_4
-                0x000001c2       0x1b main.o
+                0x000001b3       0x1b main.o
  .progmem.data._ZZ4mainE3__c_3
-                0x000001dd       0x13 main.o
+                0x000001ce       0x13 main.o
  .progmem.data._ZZ4mainE3__c_2
-                0x000001f0       0x19 main.o
+                0x000001e1       0x19 main.o
  .progmem.data._ZZ4mainE3__c_1
-                0x00000209       0x1a main.o
+                0x000001fa       0x1a main.o
  .progmem.data._ZZ4mainE3__c_0
-                0x00000223       0x15 main.o
+                0x00000214       0x15 main.o
  .progmem.data._ZZ4mainE3__c
-                0x00000238       0x47 main.o
-                0x00000280                . = ALIGN (0x2)
- *fill*         0x0000027f        0x1 
+                0x00000229       0x47 main.o
+                0x00000270                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000280                __ctors_start = .
+                0x00000270                __ctors_start = .
  *(.ctors)
-                0x00000280                __ctors_end = .
-                0x00000280                __dtors_start = .
+                0x00000270                __ctors_end = .
+                0x00000270                __dtors_start = .
  *(.dtors)
-                0x00000280                __dtors_end = .
+                0x00000270                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000280        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
-                0x00000280                __init
+ .init0         0x00000270        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
+                0x00000270                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000280        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
+ .init2         0x00000270        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000028c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_copy_data.o)
-                0x0000028c                __do_copy_data
- .init4         0x000002a2       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_clear_bss.o)
-                0x000002a2                __do_clear_bss
+ .init4         0x0000027c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_copy_data.o)
+                0x0000027c                __do_copy_data
+ .init4         0x00000292       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_clear_bss.o)
+                0x00000292                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -335,77 +332,77 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000002b2        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
+ .init9         0x000002a2        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
  *(.init9)
  *(.text)
- .text          0x000002b6        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
-                0x000002b6                __vector_1
-                0x000002b6                __vector_12
-                0x000002b6                __bad_interrupt
-                0x000002b6                __vector_6
-                0x000002b6                __vector_3
-                0x000002b6                __vector_11
-                0x000002b6                __vector_13
-                0x000002b6                __vector_7
-                0x000002b6                __vector_5
-                0x000002b6                __vector_4
-                0x000002b6                __vector_9
-                0x000002b6                __vector_8
-                0x000002b6                __vector_14
-                0x000002b6                __vector_10
-                0x000002b8                . = ALIGN (0x2)
+ .text          0x000002a6        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
+                0x000002a6                __vector_1
+                0x000002a6                __vector_12
+                0x000002a6                __bad_interrupt
+                0x000002a6                __vector_6
+                0x000002a6                __vector_3
+                0x000002a6                __vector_11
+                0x000002a6                __vector_13
+                0x000002a6                __vector_7
+                0x000002a6                __vector_5
+                0x000002a6                __vector_4
+                0x000002a6                __vector_9
+                0x000002a6                __vector_8
+                0x000002a6                __vector_14
+                0x000002a6                __vector_10
+                0x000002a8                . = ALIGN (0x2)
  *(.text.*)
  .text._Z7getBytev
-                0x000002b8       0x46 decoder.o
-                0x000002b8                _Z7getBytev
+                0x000002a8       0x46 decoder.o
+                0x000002a8                _Z7getBytev
  .text._Z7getDatav
-                0x000002fe       0x5a decoder.o
-                0x000002fe                _Z7getDatav
+                0x000002ee       0x5a decoder.o
+                0x000002ee                _Z7getDatav
  .text._Z11decodeDigith
-                0x00000358       0x4e decoder.o
-                0x00000358                _Z11decodeDigith
+                0x00000348       0x4e decoder.o
+                0x00000348                _Z11decodeDigith
  .text._Z11processDatav
-                0x000003a6      0x2ae decoder.o
-                0x000003a6                _Z11processDatav
- .text.main     0x00000654       0xa8 main.o
-                0x00000654                main
+                0x00000396      0x2ae decoder.o
+                0x00000396                _Z11processDatav
+ .text.main     0x00000644       0xa0 main.o
+                0x00000644                main
  .text._Z9uart_initv
-                0x000006fc       0x12 softUART/softUART.o
-                0x000006fc                _Z9uart_initv
+                0x000006e4       0x12 softUART/softUART.o
+                0x000006e4                _Z9uart_initv
  .text._Z13uart_sendCharh
-                0x0000070e       0x54 softUART/softUART.o
-                0x0000070e                _Z13uart_sendCharh
+                0x000006f6       0x54 softUART/softUART.o
+                0x000006f6                _Z13uart_sendCharh
  .text._Z15uart_sendStringPc
-                0x00000762       0x1c softUART/softUART.o
-                0x00000762                _Z15uart_sendStringPc
+                0x0000074a       0x1c softUART/softUART.o
+                0x0000074a                _Z15uart_sendStringPc
  .text._Z17uart_sendString_PPKc
-                0x0000077e       0x24 softUART/softUART.o
-                0x0000077e                _Z17uart_sendString_PPKc
+                0x00000766       0x24 softUART/softUART.o
+                0x00000766                _Z17uart_sendString_PPKc
  .text._Z15uart_sendNumberjh
-                0x000007a2       0x32 softUART/softUART.o
-                0x000007a2                _Z15uart_sendNumberjh
+                0x0000078a       0x32 softUART/softUART.o
+                0x0000078a                _Z15uart_sendNumberjh
  .text.__vector_2
-                0x000007d4       0xc4 softUART/softUART.o
-                0x000007d4                __vector_2
+                0x000007bc       0xc4 softUART/softUART.o
+                0x000007bc                __vector_2
  .text.avr-libc
-                0x00000898       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(itoa.o)
-                0x00000898                __itoa
-                0x00000898                itoa
+                0x00000880       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(itoa.o)
+                0x00000880                __itoa
+                0x00000880                itoa
  .text.avr-libc
-                0x000008ac       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(itoa_ncheck.o)
-                0x000008ac                __itoa_ncheck
+                0x00000894       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(itoa_ncheck.o)
+                0x00000894                __itoa_ncheck
  .text.avr-libc
-                0x000008c0       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(utoa_ncheck.o)
-                0x000008c0                __utoa_ncheck
-                0x000008c2                __utoa_common
+                0x000008a8       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(utoa_ncheck.o)
+                0x000008a8                __utoa_ncheck
+                0x000008aa                __utoa_common
  .text.avr-libc
-                0x000008f2       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(strrev.o)
-                0x000008f2                strrev
-                0x00000912                . = ALIGN (0x2)
+                0x000008da       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr25\libc.a(strrev.o)
+                0x000008da                strrev
+                0x000008fa                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000912        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_exit.o)
-                0x00000912                _exit
-                0x00000912                exit
+ .fini9         0x000008fa        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_exit.o)
+                0x000008fa                _exit
+                0x000008fa                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -424,11 +421,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000912        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_exit.o)
+ .fini0         0x000008fa        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr25\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000916                _etext = .
+                0x000008fe                _etext = .
 
-.data           0x00800060        0x2 load address 0x00000916
+.data           0x00800060        0x2 load address 0x000008fe
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -453,8 +450,8 @@ END GROUP
                 0x00800076                rawData
  *(COMMON)
                 0x00800077                PROVIDE (__bss_end, .)
-                0x00000916                __data_load_start = LOADADDR (.data)
-                0x00000918                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000008fe                __data_load_start = LOADADDR (.data)
+                0x00000900                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800077        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
@@ -539,26 +536,26 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x1402
+.debug_info     0x00000000     0x13e8
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x420 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
  .debug_info    0x00000420      0x851 decoder.o
- .debug_info    0x00000c71      0x2ac main.o
- .debug_info    0x00000f1d      0x4e5 softUART/softUART.o
+ .debug_info    0x00000c71      0x292 main.o
+ .debug_info    0x00000f03      0x4e5 softUART/softUART.o
 
-.debug_abbrev   0x00000000      0x94d
+.debug_abbrev   0x00000000      0x927
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x3e8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
  .debug_abbrev  0x000003e8      0x1ef decoder.o
- .debug_abbrev  0x000005d7      0x143 main.o
- .debug_abbrev  0x0000071a      0x233 softUART/softUART.o
+ .debug_abbrev  0x000005d7      0x11d main.o
+ .debug_abbrev  0x000006f4      0x233 softUART/softUART.o
 
-.debug_line     0x00000000      0xa2d
+.debug_line     0x00000000      0xa24
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000       0xf1 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATtiny_DFP/1.3.172/gcc/dev/attiny45/avr25/crtattiny45.o
  .debug_line    0x000000f1      0x4d9 decoder.o
- .debug_line    0x000005ca      0x1c5 main.o
- .debug_line    0x0000078f      0x29e softUART/softUART.o
+ .debug_line    0x000005ca      0x1bc main.o
+ .debug_line    0x00000786      0x29e softUART/softUART.o
 
 .debug_frame    0x00000000      0x17c
  *(.debug_frame)
@@ -576,11 +573,11 @@ END GROUP
  .debug_str     0x00000477       0x8d softUART/softUART.o
                                 0x330 (size before relaxing)
 
-.debug_loc      0x00000000      0xb7c
+.debug_loc      0x00000000      0xbc4
  *(.debug_loc)
  .debug_loc     0x00000000      0x5af decoder.o
- .debug_loc     0x000005af       0x48 main.o
- .debug_loc     0x000005f7      0x585 softUART/softUART.o
+ .debug_loc     0x000005af       0x90 main.o
+ .debug_loc     0x0000063f      0x585 softUART/softUART.o
 
 .debug_macinfo
  *(.debug_macinfo)

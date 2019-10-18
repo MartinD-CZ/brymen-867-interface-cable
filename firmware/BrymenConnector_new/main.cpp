@@ -24,6 +24,9 @@ int main(void)
 
 	//input for the phototransistor
 	DDRB &=~(1 << DDB2);
+
+	//give the serial terminal a while to react
+	_delay_ms(500);		
 	
 	uart_init();
 	uart_sendString_P(PSTR("Brymen 867/869 interface cable\nfor more info, see embedblog.eu/?p=475\n"));
@@ -50,11 +53,6 @@ int main(void)
 				mode = MODE_STOP;
 				while (mode == MODE_STOP);
 			}
-		}
-		else
-		{
-			uart_sendString_P(PSTR("TIMEOUT ERROR\n"));
-			_delay_ms(1000);
 		}
     }
 }

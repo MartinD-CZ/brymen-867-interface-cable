@@ -80,10 +80,6 @@ ISR(PCINT0_vect)
 		_delay_us(UART_DELAY);
 	}
 
-	/*if (data == 'R')
-		rawData = !rawData;
-	else*/
-
 	switch (data)
 	{
 		case 'R': rawData = !rawData; break;
