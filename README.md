@@ -12,5 +12,8 @@
 ![A picture of the finished device](rev12.jpg)
 
 *Here's how the serial output looks:*
-![A picture of the finished device](console.png)
+![Console output](console.png)
+
+*If you are ordering it without the USB cable (or want to reprogram it), here's the connection diagram:*
+![Connection diagram](connection_diagram.png)
  
