@@ -1,4 +1,4 @@
-#Outdated - see the new revision [here](https://github.com/MartinD-CZ/brymen-867-869-interface-cable-rev20)!
+# Outdated - see the new revision [here](https://github.com/MartinD-CZ/brymen-867-869-interface-cable-rev20)!
 
 # Brymen 867/869 adapter cable
 *see the article [here](http://embedblog.eu/?p=475) or the listing [here](https://www.tindie.com/products/martind/brymen-867869-adapter-cable/)*
